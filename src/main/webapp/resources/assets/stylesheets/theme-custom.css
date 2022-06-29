@@ -1,0 +1,455 @@
+#fullScreen_panel{
+	background: #4eae4e;
+    border: 0;
+    box-shadow: 0px 2px 5px #00000030;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+#fullScreen_panel:focus{
+	outline: 0;
+}
+#fullScreen_panel:hover{
+	background: #0eb11d;
+    box-shadow: 0px 4px 10px #0000002e;
+}
+#menu>ul>li>ul{
+    margin: 0 -20px;
+}
+.svgMap{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0px 0 0 0;
+    overflow: hidden;
+}
+.svgMap #odishaSVGmap {
+
+}
+.svgMap #odishaSVGmap .singleDistrict{
+    stroke: #fff;
+   stroke-miterlimit: 17;
+    fill: #FF9800;
+    transition: 0.3s all;
+}
+.svgMap #odishaSVGmap .singleDistrict:hover,
+.svgMap #odishaSVGmap .singleDistrict.active{
+    fill: #eb690c;
+    cursor: pointer;
+}
+.svgMap p{
+    text-align: center;
+    font-weight: 600;
+    color: #1db540;
+    font-size: 15px;
+    margin: 0px 0 8px;
+}
+.highcharts-credits{
+    display: none;
+}
+.dashboard_rows{
+    padding-top: 0 !important;
+}
+.dashboard_rows .col-md-1, 
+.dashboard_rows .col-md-2, 
+.dashboard_rows .col-md-3, 
+.dashboard_rows .col-md-4, 
+.dashboard_rows .col-md-5, 
+.dashboard_rows .col-md-6, 
+.dashboard_rows .col-md-7, 
+.dashboard_rows .col-md-8, 
+.dashboard_rows .col-md-9, 
+.dashboard_rows .col-md-10, 
+.dashboard_rows .col-md-11, 
+.dashboard_rows .col-md-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dashboard_rows .panel{
+    margin-bottom: 20px;
+}
+.dashboard_rows .single_card{
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.dashboard_rows .single_card:last-child{
+    margin-bottom: 0px;
+}
+.dashboard_rows .single_card .single_card_con {
+    padding: 15px;
+    background: #ff9800;
+    color: #fff;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.12); 
+    min-height: 147px;   
+}
+.dashboard_rows .single_card .single_card_con h3 {
+    font-size: 18px;
+    margin: 0px 0 5px 0;
+    font-weight: 600;
+    border-bottom: 2px solid #ffffff1f;
+    padding: 0 0 5px 0;    
+}
+.dashboard_rows .single_card .single_card_con h3 span{
+    display: inline-block;
+    float: right;
+    background: #ffffffe0;
+    color: #000;
+    min-width: 35px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 3px 3px;
+    border-radius: 3px;    
+}
+.dashboard_rows .single_card .single_card_con p{
+    margin: 0 0 0 5%;
+    width: 95%;
+    border-bottom: 1px solid #ffffff40;
+    color: #ffffffeb;    
+}
+.dashboard_rows .single_card .single_card_con b{
+    float: right;    
+}
+.dashboard_rows section.panel{
+    height: auto;
+}
+.dashboard_rows section.panel>.panel-body{
+    height: 100%;
+}
+.dashboard_rows section.panel>.panel-heading {
+    border-radius: 0;
+    padding: 14px 18px;
+}
+.dashboard_rows section.panel>.panel-heading .panel-title {
+    color: #656565;
+    font-size: 17px;
+    font-weight: 600;
+}
+.dashboard_rows .panel.aid_appliance_panel{
+    height: 460px;
+}
+.dashboard_rows .panel.aid_appliance_panel .panel-body{
+    background: #009fdc;
+    color: #fff;
+}
+.dashboard_rows .panel.aid_appliance_panel .panel-body .panel-title{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    border-bottom: 2px solid #ffffff38;
+    padding: 0 0 2px 0;
+    margin-bottom: 12px;
+}
+.dashboard_rows .panel.aid_appliance_panel .table{
+    color: rgba(255, 255, 255, 0.92);
+}
+.dashboard_rows .panel.aid_appliance_panel .table-striped > tbody > tr:nth-child(odd) {
+    background-color: #f9f9f91c;
+}
+.dashboard_rows .panel.aid_appliance_panel .table-striped > tbody > tr td{    
+    border-top: 1px solid #ffffff38;
+}
+.dashboard_rows .panel.aid_appliance_panel .table-striped > tbody > tr td:nth-of-type(2){    
+    text-align: center;
+}
+
+.dashboard_rows .panel.skillDev_panel{
+    height: 120px;
+}
+.dashboard_rows .panel.skillDev_panel .panel-body{
+    background: #ff9800;
+    color: #fff;
+}
+.dashboard_rows .panel.skillDev_panel .panel-body .panel-title{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    border-bottom: 2px solid #ffffff38;
+    padding: 0 0 2px 0;
+    margin-bottom: 12px;
+}
+.dashboard_rows .panel.skillDev_panel .table{
+    color: rgba(255, 255, 255, 0.92);
+}
+.dashboard_rows .panel.skillDev_panel .table-striped > tbody > tr:nth-child(odd) {
+    background-color: transparent;
+}
+.dashboard_rows .panel.skillDev_panel .table-striped > tbody > tr td{    
+    border-top: 0;
+    border-right: 1px solid #ffffff47;
+    min-width: 120px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0;
+}
+.dashboard_rows .panel.skillDev_panel .table-striped > tbody > tr td:nth-of-type(2){    
+    text-align: center;
+}
+.dashboard_rows .panel.skillDev_panel .table h3{
+    margin: 0 0 0 0;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+}
+.dashboard_rows .panel.skillDev_panel .table span{
+    font-size: 25px;    
+}
+.dashboard_rows .panel.skillDev_panel .table h4{
+     font-size: 16px;   
+}
+.districtMap>g>path{
+    stroke: #fff;
+    stroke-miterlimit: 17;
+    fill: #FF9800;
+    transition: 0.3s all;
+}
+.districtMap>g>path:hover{
+    /*fill: #eb690c;*/
+    /*cursor: pointer;*/
+}
+.districtLevel_cards .single_card {
+    margin-bottom: 10px;
+}
+.districtLevel_cards .single_card .single_card_con{
+    min-height: auto;
+    background: #009edb;
+    text-align: center;
+    padding: 11px 10px 12px 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.09);
+}
+.districtLevel_cards .single_card .single_card_con>label{
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    background: #ffffff1a;
+    margin: 0 auto;
+    padding: 8px 15px;
+    min-width: 100px;
+    border-radius: 5px;
+}
+.districtLevel_cards .single_card .single_card_con>h3{
+    font-weight: 500;
+    border-top: 2px solid #ffffff1f;
+    margin: 10px 0 0px 0;
+    padding: 5px 0 5px 0;
+    font-size: 14px;
+    color: #ffffffd1;
+    letter-spacing: normal;   
+}
+.districtMap_con{
+    position: relative;
+}
+.districtMap_con svg{
+
+}
+.districtMap_con img{
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    width: 100px;
+    height: auto;
+    background: #fff;
+    border: 1px dashed #a7a7a7;   
+}
+.successmsg-container .uid-p {
+    font-size: 19px;
+    color: #006544;
+    font-weight: 600;
+    text-align: center;
+}
+.modal{
+     z-index: 9999!important;
+}
+
+.header .logo img {
+    color: transparent;
+    height: 62px;
+    float: left;
+    box-shadow: 0px 0px 2px #000000bd;
+    margin: 1px 0 0 0;
+    border-radius: 1px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2px;
+}
+.header .logo h1{
+    font-size: 30px;
+    font-weight: 600;
+    float: left;
+    margin: 2px 0 2px 8px;
+    border-bottom: 1px solid #daefdc;
+    color: #5d5d5d;  
+    background: linear-gradient(to right, #4caf50 0%, #ff9800 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header .logo span {
+    display: block;
+    font-size: 16px;
+    width: auto;
+    font-weight: 600;
+    color: #000;
+}
+.header .logo h4{
+    font-size: 26px;
+    font-weight: 600;
+    float: left;
+    margin: 0;
+    margin-left: 10px;
+}
+.header .logo b{
+    margin-left: 8px;
+    float: left;
+    display: block;
+    font-size: 12px;
+    color: #4b5680d1;
+}
+.dashboard_filter.dashboard_rows{
+    margin-top: -10px;
+}
+.dashboard_filter.dashboard_rows section.panel {
+    height: auto;
+}
+.dashboard_filter.dashboard_rows section.panel .panel-body {
+    padding: 14px 20px 4px;
+}
+.dashboard_filter.dashboard_rows section.panel .panel-body h3{
+    color: #0e7fda;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 24px 0 0 0;
+    letter-spacing: 0.1px;
+}
+.dashboard_filter.dashboard_rows section.panel .panel-body label{
+
+}
+.liquidMeter_con .liquid-meter{
+    width: calc(100% - 200px);
+    float: left;
+    padding-top: 0px;
+}
+.liquidMeter_con .liquid-meter_labels{
+    width: 200px;
+    float: left;
+    padding-left: 10px;
+}
+.liquidMeter_con .liquid-meter_labels label{
+    display: block;
+    border-bottom: 1px dotted #909090;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px 0 0 0;
+    color: #20c325;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+}
+.liquidMeter_con .liquid-meter_labels label span{
+    display: block;
+    font-size: 20px;
+    line-height: 32px;
+    color: #696969;    
+}
+
+.liquid-meter-wrapper svg {
+    background: #f2f2f2;
+    border-radius: 50%;
+    box-shadow: 0 12px 0 #e2e2e2;
+    transform: rotateX(22deg);
+}
+
+.small_cards{
+    position: relative;
+    width: 100%;
+    float: left;
+    background: #fff;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.63);
+    border-radius: 2px;
+    padding: 20px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.small_cards:before{
+content: '';
+    position: absolute;
+    width: 5px;
+    height: 60%;
+    /* background: #ececec; */
+    left: 0px;
+    top: 20%;
+    border-radius: 0px 5px 5px 0px;
+}
+.small_cards:after{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 60%;
+    /* background: #ececec; */
+    right: 0px;
+    top: 20%;
+    border-radius: 5px 0px 0px 5px;
+}
+.small_cards .small_card_con{
+    width: 100%;
+    float: left;    
+}
+.small_cards .small_card_con h3{
+font-size: 12px;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    margin: 4px 0 0 0;
+    background: #ececec;
+    color: #2f2f2f;
+    display: inline-block;
+    padding: 4px 10px;
+    letter-spacing: 0.4px;  
+}
+.small_cards .small_card_con span{
+    display: block;
+    font-size: 26px;
+    font-weight: 600;
+    color: #14a0e6;
+    margin: 0 0 8px 0;
+}
+.small_cards:nth-of-type(2) span{
+    color: #f5882b; 
+}
+.small_cards:nth-of-type(3) span{
+    color: #f45b5b; 
+}
+.small_cards:nth-of-type(4) span{
+    color: #656bef; 
+}
+.small_cards:nth-of-type(5) span{
+    color: #42ac58; 
+}
+.small_cards:nth-of-type(6) span{
+    color: #ff3378; 
+}
+.tableContentCon .form-control{
+    background: transparent;
+    background-color: transparent;
+    pointer-events: none;
+    border:0;
+    box-shadow: none;
+    height: initial;
+    padding: initial;
+    line-height: initial;
+    font-size: 13px;
+    color: #333;
+}
+.tableContentCon .bg-success .form-control{
+    color: #fff;
+}
+
+

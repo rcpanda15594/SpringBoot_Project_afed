@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="baseLayout" template="/WEB-INF/views/baseLayout.jsp">
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/views/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+
+	<!-- GET LOGIN ONLY PAGE -->
+	<definition name="baseLayoutLogin" template="/WEB-INF/views/baseLayoutLogin.jsp">
+		<put-attribute name="body" value="" />
+	</definition>
+
+	<definition name="login.index" extends="baseLayoutLogin">
+		<put-attribute name="body" value="/WEB-INF/views/baseLayoutLogin.jsp" />
+	</definition>
+
+	<!-- END LOGIN ONLY PAGE -->
+
+	<definition name="admin.dashboard" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/admin_dashboard.jsp" />
+	</definition>
+
+	<definition name="bankAccPage" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/master/bank_account.jsp" />
+	</definition>
+	
+	
+	<definition name="addNewBook" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/book/addNewBook.jsp" />
+	</definition>
+	
+	<definition name="addStudent" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/student/addStudent.jsp" />
+	</definition>
+	
+		<definition name="allStudent" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/student/studentList.jsp" />
+	</definition>
+	
+	<definition name="studentRepot" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/student/studentReport.jsp" />
+	</definition>
+	
+	
+	
+</tiles-definitions>
